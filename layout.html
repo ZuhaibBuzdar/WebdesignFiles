@@ -12,19 +12,96 @@
         header {
             background-color: gray;
             color:white;
-            padding: 40px;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 20% 60% 20%;
 
         }
+        section{
+            display: flex;
+        }
+        nav{
+            background-color: lightgray;
+            padding:40px;
+            
+        }
+        nav li{
+            list-style-type: none;
+            padding: 10px;
+        }
+        article{
+            /* border: 2px solid red; */
+            padding: 20px;
+        }
+        h1{
+            margin:10px;
+        }
+        
+        p{
+            margin:10px;
+        }
+        footer{
+            background-color: black;
+            color:white;
+            padding:10px;
+        }
+    .logo{
+         background-color: khaki;
+         
+    }
+    .title{
+         background-color: rgb(148, 236, 252);
+    }
+    .title h6{
+        letter-spacing: 4px;
+    }
+    .login{
+         background-color: rgb(163, 231, 172);
+         padding: 20px;
+         position: relative;
+    }
+    .logo img{
+        width: 25px;
+    height: 35px;
+    position: absolute;
+    top: 3%;
+    transform: translateX(-70%);
+         
+    }
     </style>
 </head>
 <body>
     
 <header>
-    This is head section
+    <div class="logo">
+        <img src="images/logo.png" alt="">
+    </div>
+    <div class="title">
+       <h2> Website Title  </h1>
+       <h6> website Slogan</h6>
+    </div>
+    <div class="login">
+        Login | Signup
+    </div>
 </header>
 <section>
-    this side bar
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Pearl Institute</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate ipsam blanditiis, esse, accusamus culpa at porro corrupti dolorum molestiae fuga alias? Temporibus illo facere accusantium, quam ratione architecto dicta totam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nisi? Totam provident repellendus qui inventore voluptas quos perspiciatis consectetur officia, ut commodi voluptatem eos, nulla quam voluptates placeat pariatur similique?</p>
+    </article>
 </section>
+<footer>
+    copy &copy; 2024
+</footer>
 
 </body>
 </html>
