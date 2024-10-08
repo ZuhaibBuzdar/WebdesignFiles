@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form  action="/about.php" target="_self" method="post" autocomplete="on" novalidate>
+      
+        <fieldset>
+     <legend>Student Registration Area</legend>
+     <label for="">Enter Your Mobile No:</label> <br>
+     <input type="text" name="c" id="c" pattern="[0-9]{11}" title="11 number entere">
+     <label for="">Select Date</label> <br>
+     
+     <input type="date" max="2024-12-31" min="2000-01-02">
+     <input type="number" name="age" id="age" placeholder="Enter Age between 20 to 25" min="20" max="25"><br>
+          <input type="text" name="pin" id="pin"  size="8" placeholder="enter your pin" maxlength="4">
+     <input type="button" value="OK"><br> 
+     <input type="checkbox"> Select Subject<br>
+     <input type="color"> Pic a color<br>
+     <input type="date">Datepicker<br>
+     <input type="datetime-local"><br>
+     <input type="email"><br>
+     <input type="file"><br>
+     <input type="hidden"><br>
+     <input type="image"><br>
+     <input type="month"><br>
+     <input type="number"><br>
+     <input type="password"><br>
+     <input type="radio"><br>
+     <input type="range"><br>
+     <input type="reset"><br>
+     <input type="search"><br>
+     <input type="submit"><br>
+     <input type="tel"><br>
+     <input type="text" required><br>
+     <input type="text" placeholder="Enter Your name" disabled><br>
+     <input type="text" value="Ali" placeholder="Enter Your name" readonly ><br>
+     <input type="time"><br>
+     <input type="url"><br>
+     <input type="week"><br>
+
+
+        <textarea name="message" rows="5" cols="60">
+            The cat was playing in the garden.
+            </textarea>
+            <input list="browsers">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+       
+        <label for="firstName">First Name</label>
+         <input type="text" id="firstName" name="firstName" required>
+         <label for="lastName">Last Name</label>
+         <input type="text" id="lastName" name="lastName" required>
+      
+         Please select your subjects<br>
+         <input type="checkbox" id="checkbox1" name="checkbox1"> 
+         <label for="checkbox1">HTML</label><br>
+         <input type="checkbox" id="checkbox2" name="checkbox2"> 
+         <label for="checkbox2">Javascript</label><br>
+         <input type="checkbox" id="checkbox3" name="checkbox3"> 
+         <label for="checkbox3">PHP</label><br>
+         Please select your subjects<br>
+         <input type="radio" id="radio1" name="radio1"> 
+         <label for="radio1">ADIT</label><br>
+         <input type="radio" id="radio1" name="radio1"> 
+         <label for="radio1">ACIT</label><br>
+         <input type="radio" id="radio1" name="radio1"> 
+         <label for="radio1">WEB DESIGNING</label><br>
+         <input type="submit" value="Submit">&nbsp;&nbsp;
+         <input type="reset" value="reset"><br>
+         <button type="button" onclick="add()"></button>
+
+         <label for="Computer--">Choose a Computer Part:</label>
+         <select name="products" id="products" size="3" multiple>
+            <option value="--Select--">--Select--</option>
+            <option value="Computer">Computer</option>
+            <option value="Keyboard">Keyboard</option>
+            <option value="Mouse">Mouse</option>
+            <option value="Speaker">Speaker</option>
+         </select>
+        </fieldset>
+    </form>
+
+
+</body>
+</html>

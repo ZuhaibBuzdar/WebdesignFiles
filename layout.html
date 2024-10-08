@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
     <style>
         *{
@@ -10,13 +11,26 @@
             margin: 0px;
         }
         header {
-            background-color: gray;
+            /* background-color: gray; */
             color:white;
             text-align: center;
             display: grid;
             grid-template-columns: 20% 60% 20%;
-
         }
+   
+        header::before{
+        background:url('images/bg.jpg') repeat;
+        content: "";
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        
+        height: 17%;
+        z-index: -1;
+        opacity: 1;
+        
+    }
         section{
             display: flex;
         }
@@ -46,17 +60,17 @@
             padding:10px;
         }
     .logo{
-         background-color: khaki;
+         /* background-color: khaki; */
          
     }
     .title{
-         background-color: rgb(148, 236, 252);
+         /* background-color: rgb(148, 236, 252); */
     }
     .title h6{
         letter-spacing: 4px;
     }
     .login{
-         background-color: rgb(163, 231, 172);
+         /* background-color: rgb(163, 231, 172); */
          padding: 20px;
          position: relative;
     }
@@ -100,7 +114,9 @@
     </article>
 </section>
 <footer>
-    copy &copy; 2024
+    copy &copy; 2024&hearts;&hearts;&hearts;&#128512;&#128514;
+    <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
 </footer>
 
 </body>
